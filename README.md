@@ -1,4 +1,4 @@
-django-chosen
+django-chosen for Python 3 and Chosen 1.4.2
 =============
 
 *django-chosen* is a project that makes available django FormFields that uses
@@ -14,15 +14,12 @@ Installation
 
 The recommended way to install from source is with pip:
 
-        pip install -e "git+https://github.com/theatlantic/django-chosen.git#egg=django-chosen"
+        pip install -e "https://github.com/carborgar/django-chosen.git"
 
 If the source is already checked out, use setuptools:
 
         python setup.py develop
 
-or, you can install from pypi:
-
-        pip install django-chosen
 
 Usage
 -----
